@@ -1,5 +1,5 @@
-function App() {
-  return <>This is my app</>
-}
+import QuizCompound from './Compounds/QuizCompound'
 
-export default App
+export default function App() {
+  return <QuizCompound />
+}
